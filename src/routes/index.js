@@ -33,19 +33,3 @@ export default createAppContainer(
   )
 );
 
-// const AppNavigator = createStackNavigator(
-//   {
-//     Home: {
-//       screen: BookingApp
-//     },
-//     Article: {
-//       screen: Articles
-//     }
-//   },
-//   {
-//     initialRouteName: "Home",
-//     headerMode: "none"
-//   }
-// );
-
-// export default createAppContainer(AppNavigator);
