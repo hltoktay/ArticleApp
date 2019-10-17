@@ -1,26 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-import firebase from "firebase";
+import * as firebase from "firebase";
 
-const Articles = () => {
-  return (
-    <View style={styles.container}>
-      <View style={styles.articleContainer}>
-        <Text style={styles.heading}>Welcome Articles Page</Text>
+export class Articles extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <View style={styles.articleContainer}>
+          <Text style={styles.heading}>Welcome Articles Page</Text>
 
-        <Text style={styles.content}>You are logged in from Content Page</Text>
+          <Text style={styles.content}>
+            You are logged in from Content Page
+          </Text>
 
-        <TouchableOpacity
-          style={styles.buttonContainer}
-          onPress={() => firebase.auth().signOut()}
-        >
-          <Text style={{ color: "#fff" }}>Logout</Text>
-        </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.buttonContainer}
+            onPress={() => firebase.auth().signOut()}
+          >
+            <Text style={{ color: "#fff" }}>Logout</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-    </View>
-  );
-};
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -36,12 +40,10 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 22,
     color: "#000",
-
     marginBottom: 10
   },
   content: {
     marginTop: 10,
-
     fontSize: 16
   },
   buttonContainer: {

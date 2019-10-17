@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import EStyleSheet from "react-native-extended-stylesheet";
-import firebase from "firebase";
+import * as firebase from "firebase";
 
 import Loading from "./component/Loading";
 

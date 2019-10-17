@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { View, StyleSheet } from "react-native";
 
-import AppNavigator from "./src/routes/index";
+import { RootNavigator } from "./src/routes/index";
 
-export class App extends Component {
+class App extends Component {
   render() {
+    const Nav = RootNavigator();
+
     return (
       <View style={styles.container}>
-        <AppNavigator />
+        <Nav />
       </View>
     );
   }
