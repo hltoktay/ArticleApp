@@ -65,7 +65,7 @@ export const RootNavigator = () => {
         Home: TabNavigator
       },
       {
-        initialRouteName: "Auth"
+        initialRouteName: "Home"
       }
     )
   );
