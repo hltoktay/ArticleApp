@@ -7,6 +7,7 @@ import Loading from "./component/Loading";
 
 import LoginForm from "./component/LoginForm";
 import Articles from "./component/Articles";
+import Settings from "./component/Settings";
 
 import Bg from "./images/bg.png";
 
@@ -57,7 +58,11 @@ export class BookingApp extends Component {
         );
 
       case true:
-        return <Articles />;
+        return (
+          <View style={styles.container}>
+            <Articles />
+          </View>
+        );
 
       default:
         return <Loading />;

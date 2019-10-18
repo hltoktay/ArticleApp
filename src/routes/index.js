@@ -5,20 +5,48 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import { createDrawerNavigator } from "react-navigation-drawer";
 
+import Ionicons from "react-native-vector-icons/Ionicons";
+
 // Screens
 import BookingApp from "../index";
 import Articles from "../component/Articles";
 import Settings from "../component/Settings";
+import Maps from "../component/Maps";
 
-// const TabNavigator = createBottomTabNavigator({
-//   Article: Articles,
-//   Setting: Settings
-// });
+export const TabNavigator = createBottomTabNavigator(
+  {
+    Article: Articles,
+    Map: Maps,
+    Setting: Settings
+  },
+  {
+    tabBarOptions: {
+      activeTintColor: "#fff",
+      showLabel: false,
+      activeBackgroundColor: "#ffa500",
+      inactiveBackgroundColor: "#fdf4e4",
+      style: {
+        backgroundColor: "#fdf4e4"
+      }
+    },
+    initialRouteName: "Map",
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ focused, horizontal }) => {
+        const { routeName } = navigation.state;
+        let iconName;
+        if (routeName === "Map") {
+          iconName = `md-map`;
+        } else if (routeName === "Setting") {
+          iconName = `ios-settings`;
+        } else if (routeName === "Article") {
+          iconName = `md-apps`;
+        }
 
-const AppStack = createBottomTabNavigator({
-  Article: Articles,
-  Setting: Settings
-});
+        return <Ionicons name={iconName} size={24} />;
+      }
+    })
+  }
+);
 
 const AuthStack = createStackNavigator(
   {
@@ -33,8 +61,8 @@ export const RootNavigator = () => {
   return createAppContainer(
     createSwitchNavigator(
       {
-        App: AppStack,
-        Auth: AuthStack
+        Auth: AuthStack,
+        Home: TabNavigator
       },
       {
         initialRouteName: "Auth"

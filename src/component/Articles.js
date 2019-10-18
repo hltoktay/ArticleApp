@@ -16,7 +16,12 @@ export class Articles extends Component {
 
           <TouchableOpacity
             style={styles.buttonContainer}
-            onPress={() => firebase.auth().signOut()}
+            onPress={
+              () => firebase.auth().signOut()
+              // .then(() => {
+              //   this.props.navigation.navigate("Home");
+              // })
+            }
           >
             <Text style={{ color: "#fff" }}>Logout</Text>
           </TouchableOpacity>
@@ -49,10 +54,12 @@ const styles = StyleSheet.create({
   buttonContainer: {
     marginTop: 20,
     padding: 15,
-    backgroundColor: "#a5669f",
+    backgroundColor: "#ffa500",
     width: "30%",
     borderRadius: 20
   }
 });
 
 export default Articles;
+
+//
