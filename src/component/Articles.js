@@ -14,7 +14,7 @@ export class Articles extends Component {
             You are logged in from Content Page
           </Text>
 
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={styles.buttonContainer}
             onPress={
               () => firebase.auth().signOut()
@@ -24,7 +24,7 @@ export class Articles extends Component {
             }
           >
             <Text style={{ color: "#fff" }}>Logout</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
     );
@@ -50,13 +50,6 @@ const styles = StyleSheet.create({
   content: {
     marginTop: 10,
     fontSize: 16
-  },
-  buttonContainer: {
-    marginTop: 20,
-    padding: 15,
-    backgroundColor: "#ffa500",
-    width: "30%",
-    borderRadius: 20
   }
 });
 

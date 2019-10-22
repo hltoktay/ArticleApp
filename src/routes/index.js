@@ -29,7 +29,7 @@ export const TabNavigator = createBottomTabNavigator(
         backgroundColor: "#fdf4e4"
       }
     },
-    initialRouteName: "Map",
+    initialRouteName: "Setting",
     defaultNavigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ focused, horizontal }) => {
         const { routeName } = navigation.state;

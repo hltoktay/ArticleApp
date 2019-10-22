@@ -9,16 +9,15 @@ export const colors = {
 
 export default StyleSheet.create({
   safeArea: {
-    flex: 1,
-    backgroundColor: colors.black
+    flex: 1
   },
   container: {
-    flex: 1,
-    backgroundColor: colors.background1
+    flex: 1
   },
-  gradient: {
-    ...StyleSheet.absoluteFillObject
-  },
+  // gradient: {
+  //   borderRadius: 50,
+  //   opacity: 0.5
+  // },
   scrollview: {
     flex: 1
   },
