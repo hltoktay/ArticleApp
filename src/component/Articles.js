@@ -1,31 +1,77 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Alert, ActivityIndicator } from "react-native";
+import {
+  Container,
+  Header,
+  Content,
+  List,
+  ListItem,
+  Thumbnail,
+  Text,
+  Left,
+  Body,
+  Right,
+  Button
+} from "native-base";
+
+import { getArticles } from "../service/news";
+import ArticleItem from "../component/ArticleItem";
 
 import * as firebase from "firebase";
 
 export class Articles extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isLoading: true,
+      data: null
+    };
+  }
+
+  componentDidMount() {
+    getArticles().then(
+      data => {
+        this.setState({
+          isLoading: false,
+          data: data
+        });
+      },
+      error => {
+        Alert.alert("Error", "Something went wrong!");
+      }
+    );
+  }
+
   render() {
+    console.log(this.state.data);
+
+    let view = this.state.isLoading ? (
+      <View>
+        <ActivityIndicator animating={this.state.isLoading} />
+        <Text
+          style={{
+            marginTop: 20,
+
+            textAlign: "center"
+          }}
+        >
+          Please Wait ...
+        </Text>
+      </View>
+    ) : (
+      <List
+        dataArray={this.state.data}
+        renderRow={item => {
+          return <ArticleItem data={item} />;
+        }}
+      />
+    );
+
     return (
       <View style={styles.container}>
-        <View style={styles.articleContainer}>
-          <Text style={styles.heading}>Welcome Articles Page</Text>
-
-          <Text style={styles.content}>
-            You are logged in from Content Page
-          </Text>
-
-          {/* <TouchableOpacity
-            style={styles.buttonContainer}
-            onPress={
-              () => firebase.auth().signOut()
-              // .then(() => {
-              //   this.props.navigation.navigate("Home");
-              // })
-            }
-          >
-            <Text style={{ color: "#fff" }}>Logout</Text>
-          </TouchableOpacity> */}
-        </View>
+        <Header />
+        <Content>{view}</Content>
       </View>
     );
   }
