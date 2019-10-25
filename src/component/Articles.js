@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { View, StyleSheet, Alert, ActivityIndicator } from "react-native";
+import { View, StyleSheet, ActivityIndicator, ScrollView } from "react-native";
 import {
-  Container,
   Header,
-  Content,
   List,
   ListItem,
   Thumbnail,
@@ -11,11 +9,9 @@ import {
   Left,
   Body,
   Right,
-  Button
+  Button,
+  Title
 } from "native-base";
-
-import { getArticles } from "../service/news";
-import ArticleItem from "../component/ArticleItem";
 
 import * as firebase from "firebase";
 
@@ -30,75 +26,85 @@ export class Articles extends Component {
   }
 
   componentDidMount() {
-    getArticles().then(
-      data => {
+    return fetch(
+      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=1a3bab7110f94b7896aa20498a609277"
+    )
+      .then(response => response.json())
+      .then(responseJson => {
         this.setState({
           isLoading: false,
-          data: data
+          data: responseJson.articles
         });
-      },
-      error => {
-        Alert.alert("Error", "Something went wrong!");
-      }
-    );
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   render() {
-    console.log(this.state.data);
-
-    let view = this.state.isLoading ? (
-      <View>
-        <ActivityIndicator animating={this.state.isLoading} />
-        <Text
-          style={{
-            marginTop: 20,
-
-            textAlign: "center"
-          }}
+    const { navigation } = this.props;
+    if (this.state.isLoading) {
+      return (
+        <View style={styles.loading}>
+          <ActivityIndicator />
+        </View>
+      );
+    } else {
+      let articles = this.state.data.map((val, key) => {
+        return (
+          <View key={key} style={styles.item}>
+            <List>
+              <ListItem thumbnail>
+                <Left>
+                  <Thumbnail square source={{ uri: val.urlToImage }} />
+                </Left>
+                <Body>
+                  <Text>{val.author}</Text>
+                  <Text note numberOfLines={4}>
+                    {val.title}
+                  </Text>
+                </Body>
+                <Right>
+                  <Button
+                    onPress={() => navigation.navigate("Item")}
+                    transparent
+                  >
+                    <Text>View</Text>
+                  </Button>
+                </Right>
+              </ListItem>
+            </List>
+          </View>
+        );
+      });
+      return (
+        <ScrollView
+          bounces={false}
+          automaticallyAdjustContentInsets={true}
+          style={styles.container}
         >
-          Please Wait ...
-        </Text>
-      </View>
-    ) : (
-      <List
-        dataArray={this.state.data}
-        renderRow={item => {
-          return <ArticleItem data={item} />;
-        }}
-      />
-    );
-
-    return (
-      <View style={styles.container}>
-        <Header />
-        <Content>{view}</Content>
-      </View>
-    );
+          <Header transparent style={styles.header}>
+            <Body>
+              <Title>Articles</Title>
+            </Body>
+          </Header>
+          {articles}
+        </ScrollView>
+      );
+    }
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 150,
-    paddingLeft: 10
+    padding: 5,
+    backgroundColor: "#fdf4e4"
   },
-  articleContainer: {
-    padding: 10,
-    borderBottomColor: "rgba(255,255,255, 0.7)",
-    borderBottomWidth: 2
+  item: {
+    flex: 1
   },
-  heading: {
-    fontSize: 22,
-    color: "#000",
-    marginBottom: 10
-  },
-  content: {
-    marginTop: 10,
-    fontSize: 16
-  }
+  header: {}
 });
 
 export default Articles;
-
-//

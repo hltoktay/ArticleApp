@@ -12,6 +12,12 @@ import BookingApp from "../index";
 import Articles from "../component/Articles";
 import Settings from "../component/Settings";
 import Maps from "../component/Maps";
+import ArticleItem from "../component/ArticleItem";
+
+export const ArticleStack = createSwitchNavigator({
+  Item: ArticleItem,
+  Article: Articles
+});
 
 export const TabNavigator = createBottomTabNavigator(
   {
@@ -62,7 +68,8 @@ export const RootNavigator = () => {
     createSwitchNavigator(
       {
         Auth: AuthStack,
-        Home: TabNavigator
+        Home: TabNavigator,
+        Item: ArticleStack
       },
       {
         initialRouteName: "Home"
