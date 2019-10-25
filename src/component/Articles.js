@@ -78,11 +78,7 @@ export class Articles extends Component {
         );
       });
       return (
-        <ScrollView
-          bounces={false}
-          automaticallyAdjustContentInsets={true}
-          style={styles.container}
-        >
+        <ScrollView bounces={false} style={styles.container}>
           <Header transparent style={styles.header}>
             <Body>
               <Title>Articles</Title>

@@ -6,7 +6,7 @@ class ArticleItem extends Component {
     const { goBack } = this.props.navigation;
     return (
       <View style={styles.container}>
-        <Button title="Go back" onPress={() => goBack("Map")} />
+        <Button title="Go back" onPress={() => goBack("Article")} />
         <Text>Read Article</Text>
       </View>
     );

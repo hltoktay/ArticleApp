@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "news": [
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": null,
+      "title": "ECB head Mario Draghi is saved by the bell as the eurozone's mess escalates - Axios",
+      "description": "His term is ending at a precarious time for the continent.",
+      "url": "https://www.axios.com/european-central-bank-mario-draghi-eurozone-19cb4d0a-b2e7-4543-83f4-431658ef4e72.html",
+      "urlToImage": "https://images.axios.com/NcQYDYDZFhLyWFJAkgb64t8KxJc=/0x0:1920x1080/1920x1080/2019/10/25/1572003563379.gif",
+      "publishedAt": "2019-10-25T11:48:00Z",
+      "content": "<ul><li>He will hand over control of the central bank to former IMF leader Christine Lagarde who, with no central baking experience, will inherit not just a group of weakening economies, but a squabbling 25-member governing council described by the Wall Stree… [+1546 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bitcoinist.com"
+      },
+      "author": null,
+      "title": "3 Million Bitcoin in 2 Seconds: Google Quantum Computer - Bitcoinist",
+      "description": "Less than 3 million Bitcoin (BTC) remain to be mined, with the process expected to take around 121 years. Some allege however, that Google's quantum",
+      "url": "https://bitcoinist.com/3-million-bitcoin-in-2-seconds-google-quantum-computer/",
+      "urlToImage": "https://bitcoinist.com/wp-content/uploads/2019/10/shutterstock_1015677370-1920x1200.jpg",
+      "publishedAt": "2019-10-25T11:31:56Z",
+      "content": "Less than 3 million Bitcoin (BTC) remain to be mined, with the process expected to take around 121 years. Some allege however, that Google’s quantum computer, Sycamore, could do it in “less than 2 seconds”. But is that really possible?\r\nOne Computer to Rule T… [+3546 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Electrek.co"
+      },
+      "author": null,
+      "title": "Tesla starts selling made-in-China Model 3 with Autopilot for ~$50,000 - Electrek",
+      "description": "Tesla has updated the Model 3 online configurator in China to start selling the made-in-China Model 3 Standard Range Plus with Autopilot for ~$50,000. There’s been a lot of talks about when Tesla is actually going to start Model 3 production at Gigafctory 3 i…",
+      "url": "https://electrek.co/2019/10/25/tesla-starts-selling-made-in-china-model-3-with-autopilot/",
+      "urlToImage": "https://electrek.co/wp-content/uploads/sites/3/2019/10/Tesla-MOdel-3-made-iin-china.jpg?resize=1024,496",
+      "publishedAt": "2019-10-25T11:13:00Z",
+      "content": "Tesla has updated the Model 3 online configurator in China to start selling the made-in-China Model 3 Standard Range Plus with Autopilot for ~$50,000.\r\nThere’s been a lot of talks about when Tesla is actually going to start Model 3 production at Gigafctory 3 … [+2472 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Mariella Moon",
+      "title": "Google now understands more conversational search queries - Engadget",
+      "description": "Google Search now uses machine learning for language processing -- for English language queries in the US, at least.",
+      "url": "https://www.engadget.com/2019/10/25/google-search-bert-update/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4269%252C2666%252C0%252C179%26quality%3D85%26format%3Djpg%26resize%3D1600%252C999%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252F23ee7660-f6fd-11e9-bfdb-8f0dd56ea0e0%26client%3Da1acac3e1b3290917d92%26signature%3De5597fcf738aad19c0bf369dfcf66a8263bfdc73&client=amp-blogside-v2&signature=ab66d99ed8b75a3881ccea050ac0f574137c8014",
+      "publishedAt": "2019-10-25T11:12:10Z",
+      "content": "By being able to recognize word sequences, Search is also able to understand the context of words in the query. For instance, it's now better at understand queries wherein prepositions like \"for\" and \"to\" matter a lot to their meaning. In the past, when you s… [+1572 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Dieter Bohn",
+      "title": "Somehow, Android’s messaging mess is about to get even worse - The Verge",
+      "description": "Google made this bed but we all have to lie in it",
+      "url": "https://www.theverge.com/2019/10/25/20931699/android-messaging-ccmi-rcs-mess-isis-google-fiascotastrophe",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/v8ejwNeZskiK5YKVK6Gzpv_efyw=/0x137:622x463/fit-in/1200x630/cdn.vox-cdn.com/assets/977965/whatsinthewallet.png",
+      "publishedAt": "2019-10-25T11:00:00Z",
+      "content": "Google made this bed but we all have to lie in it\r\nYears ago, the US carriers tried to make a mobile wallet to compete with Google Wallet and Apple Pay. It did not go well, and not just because of the unfortunately first attempt at naming it.\r\nI am so discomb… [+6754 chars]"
+    },
+    {
+      "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+      },
+      "author": "Michael Bloom",
+      "title": "Analysts react to Amazon's earnings report - CNBC",
+      "description": "Wall Street analysts were disappointed in Amazon's mixed quarter but told investors to buy the weakness in the stock.",
+      "url": "https://www.cnbc.com/2019/10/25/analysts-react-to-amazons-earnings-report.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/105462231-1572004836498gettyimages-1036093714r.jpg?v=1572004877",
+      "publishedAt": "2019-10-25T10:50:01Z",
+      "content": "A disappointing third-quarter earnings report is not enough to deter Wall Street analysts from Amazon.\r\nIn the its earnings report Thursday afternoon, Amazon saw its first profit decline in more than two years. Analysts attributed it to big investments in shi… [+1898 chars]"
+    },
+    {
+      "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+      },
+      "author": "Reuters",
+      "title": "Verizon beats estimates as it adds more postpaid users - CNBC",
+      "description": "Verizon beat Wall Street estimates for third-quarter profit and revenue on Friday, as it signed up more phone customers who pay a monthly bill.",
+      "url": "https://www.cnbc.com/2019/10/25/verizon-beats-estimates-as-it-adds-more-postpaid-users.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/105830787-1554303612055gettyimages-1032743770.jpeg?v=1554304373",
+      "publishedAt": "2019-10-25T10:37:18Z",
+      "content": "Verizon Communications beat Wall Street estimates for third-quarter profit and revenue on Friday, as the largest U.S. wireless carrier by subscribers signed up more mobile phone customers who pay a monthly bill.\r\nThe company's strategy of focusing on the core… [+1755 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fox8.com"
+      },
+      "author": "https://www.facebook.com/Fox8NewsCleveland",
+      "title": "Local UAW passes GM contract, national vote tallied today - WJW FOX 8 News Cleveland",
+      "description": "PARMA, Ohio - United Auto Workers Local 1005 in Parma passed the tentative contract with General Motors by a margin of just 4% Thursday.\r\n\nMike Caldwell, President for Local 1005, says the vote was 52% in favor and 48% against.\r\n\nSome union members say the fa…",
+      "url": "https://fox8.com/2019/10/25/local-uaw-passes-gm-contract-national-vote-tallied-today/",
+      "urlToImage": "https://localtvwjw.files.wordpress.com/2019/09/promo393630610.jpg?quality=85&strip=all&w=1200",
+      "publishedAt": "2019-10-25T10:22:00Z",
+      "content": "PARMA, Ohio - United Auto Workers Local 1005 in Parma passed the tentative contract with General Motors by a margin of just 4% Thursday.\r\nMike Caldwell, President for Local 1005, says the vote was 52% in favor and 48% against.\r\nSome union members say the fail… [+1261 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Charles Riley, CNN Business",
+      "title": "Offshore wind could power the world - CNN",
+      "description": "Offshore wind turbines could generate enough electricity to power every home and business on Earth, according to a report published on Friday.",
+      "url": "https://www.cnn.com/2019/10/25/business/offshore-wind-energy/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/191025090548-01-offshore-windfarm-file-super-tease.jpg",
+      "publishedAt": "2019-10-25T10:21:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Anne D'innocenzio",
+      "title": "Massive American Dream mall to open but will shoppers come? - The Associated Press",
+      "description": "EAST RUTHERFORD, N.J. (AP) — More than two decades ago when a mega entertainment and shopping complex was being conceived on a vast swath of swamp land in New Jersey, the iPhone didn't exist,...",
+      "url": "https://www.apnews.com/df93ca8371994f7eb6344dde322b2de2",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/f1397be2fb5046a6a65f8b73d66be00a/3000.jpeg",
+      "publishedAt": "2019-10-25T10:17:15Z",
+      "content": "EAST RUTHERFORD, N.J. (AP) More than two decades ago when a mega entertainment and shopping complex was being conceived on a vast swath of swamp land in New Jersey, the iPhone didnt exist, Amazon was only selling books online and malls were where you went for… [+4865 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Helen Coster",
+      "title": "Behind AT&T's plan to take on Netflix, Apple and Disney with HBO Max - Reuters",
+      "description": "In the bestselling novel \"Circe\" -- optioned by WarnerMedia for its forthcoming HBO Max streaming service -- the daughter of the Greek god Helios tames wild beasts and menaces the gods.",
+      "url": "https://www.reuters.com/article/us-media-at-t-hbo-max-focus-idUSKBN1X4163",
+      "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20191025&t=2&i=1444819089&w=1200&r=LYNXMPEF9O0ON",
+      "publishedAt": "2019-10-25T10:09:00Z",
+      "content": "(Reuters) - In the bestselling novel “Circe” optioned by WarnerMedia for its forthcoming HBO Max streaming service the daughter of the Greek god Helios tames wild beasts and menaces the gods. \r\nWarnerMedia executives want “Circe” to unleash a different power:… [+5704 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Story by Danielle Wiener-Bronner, CNN Business\nPhoto illustrations by Max Pepper, CNN Business",
+      "title": "Crispy, spicy and hugely popular: Why chicken sandwiches are taking over America - CNN",
+      "description": "Chick-fil-A popularized it, Popeyes made it go viral, and now McDonald's franchisees want to outdo them all. Here's why America's fast food giants are so focused on chicken sandwiches.",
+      "url": "https://www.cnn.com/2019/10/25/business/mcdonalds-popeyes-chick-fil-a-chicken-sandwich/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/191024122527-20191024-chicken-sandwich-wars-main-super-tease.jpg",
+      "publishedAt": "2019-10-25T09:59:00Z",
+      "content": "Story by Danielle Wiener-Bronner, CNN BusinessPhoto illustrations by Max Pepper, CNN Business\r\nUpdated 5:59 AM ET, Fri October 25, 2019\r\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\r\nMonths after this summer's brie… [+12489 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fox8.com"
+      },
+      "author": "https://www.facebook.com/Fox8NewsCleveland",
+      "title": "Walmart, CVS, Rite Aid pull Johnson & Johnson’s Baby Powder after asbestos report - WJW FOX 8 News Cleveland",
+      "description": "Walmart Stores Inc. and CVS Health Corp. are pulling some bottles of Johnson & Johnson’s Baby Powder off store shelves after government regulators found asbestos in one lot of the talc-based product.\r\n\nCVS said Thursday it’s removing all 22-ounce-sized Baby P…",
+      "url": "https://fox8.com/2019/10/25/walmart-cvs-rite-aid-pull-johnson-johnsons-baby-powder-after-asbestos-report/",
+      "urlToImage": "https://localtvwjw.files.wordpress.com/2019/10/gettyimages-1181904245-1.jpg?quality=85&strip=all",
+      "publishedAt": "2019-10-25T09:44:00Z",
+      "content": "Walmart Stores Inc. and CVS Health Corp. are pulling some bottles of Johnson &amp; Johnsons Baby Powder off store shelves after government regulators found asbestos in one lot of the talc-based product.\r\nCVS said Thursday its removing all 22-ounce-sized Baby … [+448 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestreet.com"
+      },
+      "author": "Joseph Woelfel",
+      "title": "Dow Futures, Amazon, Intel, Visa and Verizon - 5 Things You Must Know - TheStreet",
+      "description": "U.S. stock futures are mixed Friday as shares of Amazon.com take a hit following a disappointing earnings report, and uncertainties remain over the status of U.S.-China trade negotiations....AMZN",
+      "url": "https://www.thestreet.com/markets/5-things-you-must-know-before-the-market-opens-friday-15138628",
+      "urlToImage": "http://s.thestreet.com/files/tsc/v2008/photos/contrib/uploads/af3cbaf0-cf1b-11e9-805f-51d2d91c816d.png",
+      "publishedAt": "2019-10-25T09:23:38Z",
+      "content": "Here are five things you must know for Friday, Oct. 25: \r\n1. -- Stock Futures Point to a Mixed Start for Wall Street\r\nU.S. stock futures were mixed Friday after shares of Amazon.com (AMZN - Get Report) took a hit following a disappointing earnings report, and… [+5427 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dailymail.co.uk"
+      },
+      "author": "By Olivia Wheeler For Mailonline",
+      "title": "Sofia Richie wows as she showcases her washboard abs in a tiny white bikini top at Hard Rock event - Daily Mail",
+      "description": "The daughter of Lionel Richie, 21, looked incredible as she showcased her washboard abs in a tiny white bikini top with straps wrapping around her toned torso.",
+      "url": "https://www.dailymail.co.uk/tvshowbiz/article-7612879/Sofia-Richie-wows-showcases-washboard-abs-tiny-white-bikini-Hard-Rock-event.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2019/10/25/10/20171230-0-image-a-4_1571994424042.jpg",
+      "publishedAt": "2019-10-25T09:22:03Z",
+      "content": "She jetted into Miami earlier in the day with her boyfriend Scott Disick and Khloe Kardashian. \r\nAnd Sofia Richie wowed on the red carpet later that evening while attending the Seminole Hard Rock Hotel and Casino opening in Hollywood, Florida, on Thursday nig… [+4130 chars]"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "Nathan Bomey",
+      "title": "6-year, 0% loan for a mattress? Intense competition continues to grip mattress industry - USA TODAY",
+      "description": "As feverish competition continues to grip the mattress business, some of the industry's biggest players are now offering cheap long-term loan deals.",
+      "url": "https://www.usatoday.com/story/money/2019/10/25/mattress-loans-mattress-financing-offers/4054792002/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2019/05/06/USAT/aaadec8e-813a-4f47-89f4-f1656902b75d-Tempur-Cloud_mattress.jpg?crop=2870,1614,x0,y0&width=3200&height=1680&fit=bounds",
+      "publishedAt": "2019-10-25T09:01:00Z",
+      "content": "Here are five ways to tell that you need a new mattress ASAP.\r\n Melissa Rorech, Reviewed\r\nFor the last few years, the mattress industry has been rocked by overexpansion, bankruptcies and digital threats.\r\nNow, as those competitive forces continue, some of the… [+5828 chars]"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": null,
+      "title": "The C.E.O. Taking On the Gun Lobby - The New York Times",
+      "description": "Ed Stack took over Dick’s Sporting Goods from his cantankerous father. He has now turned it into an unlikely force in the gun debate.",
+      "url": "https://www.nytimes.com/2019/10/25/business/ed-stack-dicks-sporting-goods-corner-office.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/10/27/business/24CORNEROFFICE-02/merlin_162912600_1b91ae60-983d-4e49-bdc3-bf4f379ce014-facebookJumbo.jpg",
+      "publishedAt": "2019-10-25T09:00:00Z",
+      "content": "My father, who could never really quite give you a compliment, looked at them and said, Youre right, they did a lot of business. They did 25 percent more business than they thought they would the first month. So theyre not really as smart as they think they a… [+1568 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Yusuf Khan",
+      "title": "Amazon's earning shocker is set to wipe over $50 billion from its market cap - Business Insider",
+      "description": "Amazon's earning shocker is set to wipe over $50 billion from its market cap",
+      "url": "https://markets.businessinsider.com/news/stocks/amazon-q3-earnings-shocker-wipes-54-billion-off-market-cap-2019-10-1028630546",
+      "urlToImage": "https://images.markets.businessinsider.com/image/5db2a979dee01950b57b9953-2400/gettyimages-450831302.jpg",
+      "publishedAt": "2019-10-25T08:29:09Z",
+      "content": "David Ryder/Getty Images\r\n<ul><li>Amazon's third-quarter earnings, announced Thursday, were a shocker, missing Wall Street estimates. </li><li>The tech giant plummeted in after-hours trading, settling to a 6.1% decline in Friday's premarket.</li><li>Amazon is… [+1174 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Dom Calicchio",
+      "title": "Jeff Bezos to be No. 2 richest, behind Bill Gates, after Amazon stock drop - Fox News",
+      "description": "Amazon boss Jeff Bezos will reportedly drop to the No. 2 spot on the list of the world’s richest people after Amazon’s stock price tumbled in after-hours trading Thursday.",
+      "url": "https://www.foxnews.com/tech/jeff-bezos-to-be-no-2-richest-behind-bill-gates-after-amazon-stock-drop",
+      "urlToImage": "https://media2.foxnews.com/BrightCove/694940094001/2019/05/10/694940094001_6035173187001_6035169246001-vs.jpg",
+      "publishedAt": "2019-10-25T07:13:53Z",
+      "content": "It’s hard to become the world’s richest person – and just as hard, or even harder, to stay No. 1.\r\nAmazon boss Jeff Bezos will reportedly drop to the No. 2 spot on the list of the world’s richest people after Amazon’s stock price tumbled in after-hours tradin… [+746 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Express.co.uk"
+      },
+      "author": "Aimee Robinson",
+      "title": "Pound to euro exchange rate: Will possible election see Britons lose out on holiday money? - Express",
+      "description": "THE POUND to euro exchange rate has been dragged to a one-week low as the uncertainties around Brexit built yesterday. Amid a potential general election, the pound could be in for some turbulence. What does this mean for British holidaymakers and their travel…",
+      "url": "https://www.express.co.uk/travel/articles/1195446/Pound-euro-exchange-rate-weak-Brexit-election-no-deal-travel-money",
+      "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/25/750x445/1195446.jpg",
+      "publishedAt": "2019-10-25T07:10:00Z",
+      "content": null
+    }
+  ]
+}

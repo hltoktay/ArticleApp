@@ -13,15 +13,17 @@ import Articles from "../component/Articles";
 import Settings from "../component/Settings";
 import Maps from "../component/Maps";
 import ArticleItem from "../component/ArticleItem";
+import News from "../component/News";
 
-export const ArticleStack = createSwitchNavigator({
+export const ArticleStack = createStackNavigator({
   Item: ArticleItem,
-  Article: Articles
+  Article: Articles,
+  New: News
 });
 
 export const TabNavigator = createBottomTabNavigator(
   {
-    Article: Articles,
+    Article: News,
     Map: Maps,
     Setting: Settings
   },
