@@ -16,7 +16,7 @@ const createStoreWithMiddleware = createStore(
 );
 
 const appRedux = () => (
-  <Provider store={createStoreWithMiddleware}>
+  <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>
 );
