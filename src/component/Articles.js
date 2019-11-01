@@ -66,7 +66,11 @@ export class Articles extends Component {
                 </Body>
                 <Right>
                   <Button
-                    onPress={() => navigation.navigate("Item")}
+                    onPress={() =>
+                      navigation.navigate("Item", {
+                        ...val
+                      })
+                    }
                     transparent
                   >
                     <Text>View</Text>

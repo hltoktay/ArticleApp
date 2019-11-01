@@ -5,7 +5,7 @@ import axios from "axios";
 export function getNews() {
   const request = axios({
     method: "GET",
-    url: "https://plantapp-ba72f.firebaseio.com/articles.json"
+    url: "https://plantapp-ba72f.firebaseio.com/news.json"
   })
     .then(response => {
       const articles = [];

@@ -19,8 +19,27 @@ class News extends Component {
   renderArticle = news =>
     news.articles
       ? news.articles.map((item, i) => (
-          <TouchableOpacity key={i}>
-            <Text>{item.content}</Text>
+          <TouchableOpacity
+            onPress={() =>
+              this.props.navigation.navigate("Item", {
+                ...item
+              })
+            }
+            key={i}
+          >
+            <View style={styles.cardContainer}>
+              <View>
+                <Image
+                  style={{ height: 150, justifyContent: "space-around" }}
+                  source={{ uri: `${item.image}` }}
+                  resizeMode="cover"
+                />
+              </View>
+              <View style={styles.contentCard}>
+                <Text style={styles.title}>{item.title}</Text>
+                <Text>{item.team}</Text>
+              </View>
+            </View>
           </TouchableOpacity>
         ))
       : null;
@@ -36,8 +55,17 @@ class News extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "#e3e3e3"
+    backgroundColor: "red"
+  },
+  cardContainer: {
+    backgroundColor: "#fff",
+    margin: 10,
+    shadowColor: "#ddd",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 1,
+    borderRadius: 2
   }
 });
 

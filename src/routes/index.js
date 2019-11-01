@@ -23,7 +23,7 @@ export const ArticleStack = createStackNavigator({
 
 export const TabNavigator = createBottomTabNavigator(
   {
-    Article: News,
+    Article: Articles,
     Map: Maps,
     Setting: Settings
   },
